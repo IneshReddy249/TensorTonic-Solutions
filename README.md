@@ -22,6 +22,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Problem | Description | Link |
 |---|---|---|
 | Implement Autoregressive Decoding with a KV Cache | Decode autoregressively with an append-only key-value cache so previously processed tokens are never recomputed. | https://www.tensortonic.com/study-plans/cracking-inference/inference-autoregressive-kv-cache |
+| Implement Dynamic Request Batching | Simulate a dynamic batching scheduler: requests arrive over time and are grouped into a forming batch. | https://www.tensortonic.com/study-plans/cracking-inference/inference-dynamic-batching |
 | Implement FlashAttention with Online Softmax | Implement tiled attention with online softmax statistics that agrees numerically with dense scaled attention. | https://www.tensortonic.com/study-plans/cracking-inference/inference-flash-attention-online-softmax |
 | Implement Grouped-Query Attention (GQA) | Implement grouped-query attention by mapping query heads onto fewer key-value heads with validated head divisibility. | https://www.tensortonic.com/study-plans/cracking-inference/inference-grouped-query-attention |
 | Calculate KV Cache Memory for MHA, MQA, GQA, and MLA | Compute the total KV-cache memory, in bytes, for a full sequence under four attention variants: MHA, MQA, GQA, and MLA. | https://www.tensortonic.com/study-plans/cracking-inference/inference-kv-cache-memory |
